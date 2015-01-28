@@ -1,8 +1,8 @@
 ##########################
 
-    My idea with this Fig/Docker setup was 
-    to be able to go from zero to Django
-    coding very quickly.
+My idea with this Fig/Docker setup was 
+to be able to go from zero to Django
+coding very quickly.
 
 ##### Getting started #####
 
@@ -10,17 +10,13 @@
 
 * Edit fig.yml to suit.
 
-# Build Docker images
-* Run 'fig build'.
+* Build Docker images. Run 'fig build'.
 
-# Create containers
-* Run 'fig up'.
+* Create containers. Run 'fig up'.
 
-# In a temporary container run init.
-* Run 'fig run --rm app bash /init.sh'.
+* In a temporary container run init script. Run 'fig run --rm app bash /init.sh'.
 
-# Start the service containers
-* Run 'fig start'.
+* Start the service containers. Run 'fig start'.
 
 The app should be up at the port specified in the fig.yml 
 
