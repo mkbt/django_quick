@@ -10,8 +10,6 @@ coding very quickly.
 
 * Edit fig.yml to suit.
 
-* Add 'pinax-project-account' files. Run 'git clone https://github.com/pinax/pinax-project-account.git'.
-
 * Build Docker images. Run 'fig build'.
 
 * Create containers. Run 'fig up'.
