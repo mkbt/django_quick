@@ -6,6 +6,9 @@ coding very quickly.
 
 ##### Getting started #####
 
+* When cloning this repo don't forget to use --recursive as there is a submodule.
+'git clone --recursive https://github.com/mkbt/django_quick.git'
+
 * Install docker, fig, and git.
 
 * Edit fig.yml to suit.
