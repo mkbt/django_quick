@@ -8,6 +8,8 @@
 
 * Install docker and fig.
 
+* Edit fig.yml to suit.
+
 # Build Docker images
 * Run 'fig build'.
 
