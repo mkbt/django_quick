@@ -1,0 +1,21 @@
+app:
+    build: .
+    command: bash /run.sh 0.0.0.0:8002
+    working_dir: /host_mount/
+    environment:
+        - PYTHONUNBUFFERED=1
+    ports:
+        - "8002:8002"
+    volumes_from:
+        - data
+    environment:
+        - PROJECT_NAME=myproject
+    volumes:
+        - ./init.sh:/init.sh
+
+data:
+    build: .
+    command: bash
+    volumes:
+      - host_mount:/host_mount
+      - /db
