@@ -6,9 +6,11 @@ coding very quickly.
 
 ##### Getting started #####
 
-* Install docker and fig.
+* Install docker, fig, and git.
 
 * Edit fig.yml to suit.
+
+* Add 'pinax-project-account' files. Run 'git clone https://github.com/pinax/pinax-project-account.git'.
 
 * Build Docker images. Run 'fig build'.
 
