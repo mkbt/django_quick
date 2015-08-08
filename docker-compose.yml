@@ -1,7 +1,7 @@
 command:
     build: .
     command: bash
-    working_dir: /host_mount/
+    working_dir: /host_mount/myproject
     environment:
         - PYTHONUNBUFFERED=1
     volumes_from:
